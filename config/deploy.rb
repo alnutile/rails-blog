@@ -4,17 +4,20 @@ require 'bundler/capistrano'  # Add Bundler integration
 
 ssh_options[:forward_agent] = true
 set :deploy_via, :remote_cache
+set :use_sudo, false
 #set :use_sudo, false
 load 'deploy/assets'
 
-set :application, "alsstuff2"
+set :application, "alsstuff2Cap"
 set :user, "deploy"
 set :deploy_to, "/var/www/#{application}"
 
-set :repository, "file:///home/deploy/git/alsBlogRails.git/"
-set :local_repository, "file://."
+default_run_options[:pty] = true  # Must be set for the password prompt
+                                  # from git to work
+
+set :repository, "https://github.com/alnutile/blog.git"  # Your clone URL
+#set :local_repository, "file://."
 #set :deploy_via, :copy
-#set :local_repository, "/media/DriveTwov2/GitLocal/alsBlogRails.git"
 set :scm, :git
 set :branch, "master"
 default_run_options[:pty] = true
