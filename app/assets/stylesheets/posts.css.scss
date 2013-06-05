@@ -1,0 +1,26 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+/* blog posts */
+span.blog-link, a.blog-link {
+	color: #0088cc;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 5px;
+	width: 185px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: block;
+}
+
+a.blog-link.active, li.blog-link a:hover {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	background-color: #0088cc;
+	margin-left: 0px;
+	margin-right: 0px;
+	width:163px;
+}

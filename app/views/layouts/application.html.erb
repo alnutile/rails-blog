@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alfred Nutile::Developer[JavaScript, jQuery, PHP, Angular, Drupal] | <%= yield(:title) %></title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.ico' %>
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+  <!-- For iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+  <!-- For third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+</head>
+<body>
+  <%= render 'shared/topnav' %>
+  <div  id="all-the-rest-container"  class="container">
+    <div  id="all-the-rest"  class="container">
+      <div class="row span11" id="row-content">
+        <% flash.each do |key, value| %>
+          <div class="alert alert-<%= key %>"><%= value %></div>
+        <% end %>
+        <div id="main-content">
+            <%= yield %>
+        </div>
+      </div><!--/row-fluid content-->
+      <div class="row span11" id="row-tweat"></div><!--/row-fluid content-->
+      <div class="row span11" id="row-footer">
+        <div id="misc-bar-bottom" class="span11">
+           <%= render 'shared/footer' %>
+        </div><!--/misc-bar-->
+      </div><!--/row-fluid footer-->
+    </div><!--/all-the-rest-->
+  </div><!--/rest-container-->
+
+  <%= javascript_include_tag "application" %>
+   <script>
+      var _gaq=[['_setAccount','UA-39925227-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+</body>
+</html>

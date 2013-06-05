@@ -1,0 +1,10 @@
+<div class="project-thumb-projects">
+	<% @projects.each do |project| %>
+	  <div class="media span2">
+	    <%= link_to image_tag(project.photo.url(:medium), :class => "img-polaroid media-object"), project_path(project.id), :class => "proj-#{project.id}" %></td>
+	  </div>
+	  <div class="port-<%= project.id %>" style="display: none;">
+	    <%= project.body %>
+	  </div>
+	<% end %>
+</div>

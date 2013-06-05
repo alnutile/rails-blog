@@ -1,0 +1,19 @@
+<div class="span3">
+  <div class="nav-header">Articles</div>
+  <ul class="nav nav-list">
+     <% @posts.each do |post| %> 
+      <li class="blog-link">
+      	<% 
+      		if params[:id].to_s == post.id.to_s
+      			active = 'active'
+      		else 
+      			active = 'not-active'
+      		end
+      	%>
+        <%= link_to post.title, post, :class => "blog-link #{active}" %>
+        <div class="well"><%= raw strip_tags(truncate(post.body, :length => 100)) %></div>
+      </li>
+     <% end %>
+  </ul>
+</div>
+

@@ -1,0 +1,291 @@
+@import "bootstrap";
+body {
+  background-color: #1D1E24;
+  background-image: url(debut_dark.png);
+  background-repeat: repeat;
+  display: none;
+}
+
+#row-top {
+  background-color: #583F2B;
+  padding: 10px 40px 10px 40px;
+}
+
+#all-the-rest-container { 
+  // margin-top: 45px;
+}
+
+#row-content {
+  background-color: white;  
+  padding: 10px 40px 10px 40px;
+  background-image: url(gray_jean.png);
+  background-repeat: repeat-z;
+  box-shadow: 0px 1px 13px rgba(18,17,17,0.58) inset;
+  box-shadow: 
+        inset 0 20px 20px -20px rgba(18,17,17,0.58);
+  overflow: hidden;
+}
+
+#row-footer {
+  background-color: #1D1E24;
+  padding: 10px 40px 10px 40px;
+  background-image: url(footer.jpg);
+  border-top: 10px solid #4b4b4b;
+  background-position-x: -246px;
+  }
+
+#address-block {
+  color: #ffffff;  
+}
+
+#project-slide {
+  min-height: 400px;
+}
+
+#social-block ul li {
+  list-style: none;
+}
+
+
+
+#row-tweat {
+  padding-left: 14px;
+  color: #cacaca;  
+  display: none;
+  font-size: 106%;
+}
+
+#content-wrapper {
+  background-color: white;
+  background-image: url(gray_jean.png);
+  background-repeat: repeat-z;
+}
+
+#row-text {
+  float: right;
+  left: 8%;
+  line-height: 37em;
+  margin-right: -23%;
+  margin-top: 20%;
+  overflow: hidden;
+  padding: 3%;
+  position: relative;
+  z-index: 2;
+}
+#text-me {
+    font-size: 15em;
+    line-height: 0.5em;
+    opacity: 0.5;
+}
+
+/* Circles */
+#home-circles span {
+ border: 5px solid white;
+ height: 150px;
+ -moz-border-radius:75px;
+ -webkit-border-radius: 75px;
+ border-radius: 75px;
+ width: 150px;  
+ opacity: 0.5;
+ cursor: pointer;
+ margin-bottom: 5%;
+ margin-right: 5%;
+ margin-top: 2%;
+}
+
+#home-circles span:hover {
+ opacity: 1;
+}
+
+#about-me-circle {
+ background-color: #BFB8A3;
+ background-image: url('me.jpeg');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+
+#angular-circle {
+ background-color: #BFB8A3;
+ background-image: url('angular_circle.png');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#projects-circle {
+ background-color: #F2E0C9; 
+ font-size: 3em;
+ text-align: center;
+ overflow: hidden; 
+}
+
+#projects-circle p {
+    margin: auto;
+    padding: 40% 20%;
+    text-align: center;
+}
+
+#drupal-circle {
+ background-color: #BFB8A3;
+ background-image: url('da.png');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#blog-circle {
+ background-color: #F2B9AC;
+ font-size: 3em;
+ text-align: center;
+ overflow: hidden;
+}
+
+#blog-circle p {
+    margin: auto;
+    padding: 40% 20%;
+    text-align: center;
+}
+
+
+#gplus-circle {
+ background-color: #D97E7E;
+ background-image: url('gplus.jpg');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+
+#rails-circle {
+ background-color: #D97E7E;
+ background-image: url('rails-circle.jpg');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#hfc-circle {
+ background-color: #D97E7E;
+ background-image: url('hfc-circle.png');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#linkedin-circle {
+ background-color: #D97E7E;
+ background-image: url('linked.jpg');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#twitter-circle {
+ background-color: #F2E0C9; 
+ background-image: url('twitter.png');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#amazon-circle {
+    background-color: #F2E0C9;
+    background-image: url('amazon.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.circle-row {
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: auto;
+}
+
+.loader {
+  display: block;
+  position: absolute;
+  margin: auto;
+  background-color: black;
+  padding: 100%;
+  opacity: .45;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 99999;
+}
+
+.loader img {
+  position: absolute;
+  top: 10%;
+  left: 21%;
+}
+
+address a {
+  color: white;
+}
+
+/* Large desktop */
+@media (min-width: 1000px) { 
+  #all-the-rest {
+   margin-top: 40px;
+  }
+  #row-content {
+    min-height: 500px;
+  }
+  #row-footer {
+    min-height: 200px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  
+  #all-the-rest {
+   margin-top: 45px;
+  }
+  
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 990px) {
+  #project-list .media {
+    max-height: 100px;
+    min-height: 100px;
+  }
+  #row-content {
+    min-height: 300px;
+    margin-top: -10px;
+  }
+  #all-the-rest {
+   margin-top: 50px;
+  }
+  #row-footer {
+    min-height: 200px;
+  } 
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  #all-the-rest {
+   // margin-top: -40px;
+  }
+  #row-content {
+    min-height: 300px;
+    margin-top: 40px;
+  }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+ 
+}
+
+#tag_cloud {
+  width: 400px;
+  line-height: 1.6em;
+  .s { font-size: 0.8em; }
+  .m { font-size: 1.2em; }
+  .l { font-size: 1.8em; }
+}
+
+.project-thumb-projects {
+  margin-top: 20px;
+}

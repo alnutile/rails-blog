@@ -1,0 +1,7 @@
+<div class="span7 blog-full">
+	<h2><%= @post.title %></h2>
+	<div><%= simple_format @post.body %></div>
+	<p>
+      Tags: <%= raw @post.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
+    </p>
+</div>

@@ -1,0 +1,14 @@
+<div class="span7 blog-full">
+	
+
+	<% @posts.each do |post| %>
+
+		<h2><%= link_to post.title, post_path(post.id) %></h2>
+		<div><%= simple_format strip_tags(truncate(post.body, :length => 200, :omission => "... (more)")) %></div>
+		<br/>
+		<p>
+	      <span class="lable">Tags:</span> <%= raw post.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
+	    </p>
+
+    <% end %>
+</div>
