@@ -15,12 +15,6 @@ div, p, ol, ul, td {
   font-weight: 300;
 }
 
-.nav-list {
-  div, p, ol, ul, td {
-  font-size: 12px;
-  }
-}
-
 .prettyprint ol, .prettyprint li,
 .prettyprint p {
     font-size: 13px;
