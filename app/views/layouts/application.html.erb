@@ -13,9 +13,9 @@
 </head>
 <body>
   <%= render 'shared/topnav' %>
-  <div  id="all-the-rest-container"  class="container">
-    <div  id="all-the-rest"  class="container">
-      <div class="row span11" id="row-content">
+  <div  id="all-the-rest-container"  class="container-fluid">
+    <div  id="all-the-rest"  class="container-fluid">
+      <div class="row-fluid span11" id="row-content">
         <% flash.each do |key, value| %>
           <div class="alert alert-<%= key %>"><%= value %></div>
         <% end %>
@@ -23,8 +23,8 @@
             <%= yield %>
         </div>
       </div><!--/row-fluid content-->
-      <div class="row span11" id="row-tweat"></div><!--/row-fluid content-->
-      <div class="row span11" id="row-footer">
+      <div class="row-fluid span11" id="row-tweat"></div><!--/row-fluid content-->
+      <div class="row-fluid span11" id="row-footer">
         <div id="misc-bar-bottom" class="span11">
            <%= render 'shared/footer' %>
         </div><!--/misc-bar-->

@@ -6,6 +6,28 @@ body {
   display: none;
 }
 
+div, p, ol, ul, td { 
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-family: "museo-sans",helvetica,arial,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.prettyprint ol, .prettyprint li,
+.prettyprint p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 9px;
+    font-family: "museo-sans",helvetica,arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+#all-the-rest-container {
+  max-width: 904px;
+}
+
 #row-top {
   background-color: #583F2B;
   padding: 10px 40px 10px 40px;
