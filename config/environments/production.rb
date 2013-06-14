@@ -16,7 +16,7 @@ Alsstuff2::Application.configure do
   config.assets.compress = true
 
   # Keep angular happy
-  config.assets.js_compressor = Sprockets::LazyCompressor.new { Uglifier.new(mangle: false) }
+  ### config.assets.js_compressor = Sprockets::LazyCompressor.new { Uglifier.new(mangle: false) }
   
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = true
