@@ -10,7 +10,7 @@ span.blog-link, a.blog-link {
 	text-decoration: none;
 	cursor: pointer;
 	padding: 5px;
-	width: 185px;
+	width: 163px;
 	margin-left: 0px;
 	margin-right: 0px;
 	display: block;
@@ -20,7 +20,9 @@ a.blog-link.active, li.blog-link a:hover {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 	background-color: #0088cc;
+}
+
+.nav-list li.blog-link a {
 	margin-left: 0px;
 	margin-right: 0px;
-	width:163px;
 }

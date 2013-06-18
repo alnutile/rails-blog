@@ -1,10 +1,10 @@
-<div id="project-slide" class="media">
+<div id="project-slide" class="media span12">
         <span id="slide1">
             <div class="media">
                  <div class="span5 media-img">
                   <%= image_tag @projectFull.photo.url(:large), :class => "img-polaroid media-object" %>
                  </div>             
-                 <div class="span5 media-body">
+                 <div class="span7 media-body">
                    <h4 class="media-heading"><%= @projectFull.title %></h4>
                   <p class="starting">
                     <%= simple_format @projectFull.body %>

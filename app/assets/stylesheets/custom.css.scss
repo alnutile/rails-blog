@@ -31,7 +31,7 @@ div, p, ol, ul, td {
     font-weight: normal;
 }
 #all-the-rest-container {
-  max-width: 904px;
+  max-width: 1024px;
 }
 
 #row-top {
@@ -56,11 +56,15 @@ div, p, ol, ul, td {
 
 #row-footer {
   background-color: #1D1E24;
-  padding: 10px 40px 10px 40px;
   background-image: url(footer.jpg);
   border-top: 10px solid #4b4b4b;
-  background-position-x: -246px;
+  background-position-x: -98px;
+  
+  #misc-bar-bottom {
+    padding-top: 10px;
   }
+}
+
 
 #address-block {
   color: #ffffff;  
