@@ -21,7 +21,7 @@
           <div class="alert alert-<%= key %>"><%= value %></div>
         <% end %>
         <div id="main-content">
-            <%= yield %>
+            <%= auto_link(yield) %>
         </div>
       </div><!--/row-fluid content-->
     </div><!--/all-the-rest-->

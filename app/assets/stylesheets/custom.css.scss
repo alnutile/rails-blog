@@ -323,3 +323,51 @@ address a {
 .project-thumb-projects {
   margin-top: 20px;
 }
+
+div.site, div.keys div {
+  font-size: 15px;
+}
+
+.about ul {
+  font-size: 17px;
+}
+
+.some, .php, .pm, .rails, .css, .drupal, .notactive, .full {
+  width: 50px;
+  height: 50px;
+  background-color: #CCB96F;
+  padding: 0px 8px;
+  -moz-border-radius: 15px;
+  border-radius: 44px;
+  margin-right: 2px;
+  line-height: 26px;
+  margin-left: 2px;
+}
+
+.full {
+  background-color: #7BBE92;
+}
+
+.pm {
+  background-color: #3B74A8;
+}
+
+.css {
+  background-color: #FCFF7E;
+}
+
+.php {
+  background-color: #FF9213;
+}
+
+.rails {
+  background-color: #D90023;
+}
+
+.drupal {
+  background-color: #80D0FF;
+}
+
+.notactive {
+  background-color: #C98D8A;
+}
