@@ -28,6 +28,9 @@ Alsstuff2::Application.routes.draw do
 
   match '/about', to: 'content#about'
   match '/home', to: 'content#home'
+  match '/support_plans', to: 'content#support_plans'
+  match '/support_plan', to: 'content#support_plans'
+  match '/support', to: 'content#support_plans'
   match '/content/:id', to: 'content#show'
 
   root to: 'content#home'
