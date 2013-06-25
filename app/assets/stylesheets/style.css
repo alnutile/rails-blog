@@ -2885,3 +2885,125 @@ a.buy:hover {
 	}
     
 }	
+
+
+/* Circles */
+#home-circles span {
+ border: 5px solid white;
+ height: 150px;
+ -moz-border-radius:75px;
+ -webkit-border-radius: 75px;
+ border-radius: 75px;
+ width: 150px;  
+ opacity: 0.5;
+ cursor: pointer;
+ margin-bottom: 5%;
+ margin-right: 5%;
+ margin-top: 2%;
+}
+
+#home-circles span:hover {
+ opacity: 1;
+}
+
+#about-me-circle {
+ background-color: #BFB8A3;
+ background-image: url('me.jpeg');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+
+#angular-circle {
+ background-color: #BFB8A3;
+ background-image: url('angular_circle.png');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#projects-circle {
+ background-color: #F2E0C9; 
+ font-size: 3em;
+ text-align: center;
+ overflow: hidden; 
+}
+
+#projects-circle p {
+    margin: auto;
+    padding: 40% 20%;
+    text-align: center;
+    font-size: .5em;
+}
+
+#drupal-circle {
+ background-color: #BFB8A3;
+ background-image: url('da.png');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#blog-circle {
+ background-color: #F2B9AC;
+ font-size: 3em;
+ text-align: center;
+ overflow: hidden;
+}
+
+#blog-circle p {
+    margin: auto;
+    padding: 40% 20%;
+    text-align: center;
+    font-size: .5em;
+}
+
+
+#gplus-circle {
+ background-color: #D97E7E;
+ background-image: url('gplus.jpg');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+
+#rails-circle {
+ background-color: #D97E7E;
+ background-image: url('rails-circle.jpg');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#hfc-circle {
+ background-color: #D97E7E;
+ background-image: url('hfc-circle.png');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#linkedin-circle {
+ background-color: #D97E7E;
+ background-image: url('linked.jpg');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#twitter-circle {
+ background-color: #F2E0C9; 
+ background-image: url('twitter.png');
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#amazon-circle {
+    background-color: #F2E0C9;
+    background-image: url('amazon.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.circle-row {
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: auto;
+}
