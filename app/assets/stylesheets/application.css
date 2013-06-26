@@ -7,7 +7,14 @@
  *
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
- *= style
  *= require_self
  *= require_tree .
  */
+@import "bootstrap";
+@import "bootstrap-responsive";
+@import "social-icons.css";			/* Social Icons */
+@import "fancybox.css";				/* Fancybox */
+@import "font-awesome.css";			/* Font Awesome*/
+@import "font-awesome-ie7.css";		/* Font Awesome*/
+@import "glyphicons.css";				/* Glyphicons SVG & Font */
+@import "halflings.css";				/* Glyphicons Halflings SVG & Font */

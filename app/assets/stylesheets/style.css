@@ -12,14 +12,6 @@
 
 /* Import Section
 =================================================================== */
-@import "social-icons.css";			/* Social Icons */
-@import "fancybox.css";				/* Fancybox */
-@import "font-awesome.css";			/* Font Awesome*/
-@import "font-awesome-ie7.css";		/* Font Awesome*/
-@import "glyphicons.css";				/* Glyphicons SVG & Font */
-@import "halflings.css";				/* Glyphicons Halflings SVG & Font */
-@import "bootstrap.css";
-@import "bootstrap-responsive.css";
 
 html { -webkit-font-smoothing: antialiased; }
 
