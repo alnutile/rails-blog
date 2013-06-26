@@ -1,4 +1,4 @@
-$('.project-thumb-projects a').on('click', function(){
+$('a.image').on('click', function(){
 	var clickedClass = $(this).attr('class');
 	clickedClass = clickedClass.split('-');
 

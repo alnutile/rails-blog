@@ -1,5 +1,16 @@
 <% provide(:title, 'Portfolio') %>
-<h1>Portfolio</h1>
-<%= render 'projects-top' %>
-<!-- All Projects -->
-<%= render 'projects-bottom' %>
+
+<div id='page-title'>
+  <h2>Portfolio</h2>
+</div>
+
+<div id="wrapper">
+	<div class="row-fluid">
+		<div class="span12 posts">
+			<%= render 'projects-top' %>
+		</div>
+	</div>
+	<div id="wall" class="row-fluid">
+		<%= render 'projects-bottom' %>
+	</div>
+</div>

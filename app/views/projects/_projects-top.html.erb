@@ -2,7 +2,7 @@
         <span id="slide1">
             <div class="media">
                  <div class="span5 media-img">
-                  <%= image_tag @projectFull.photo.url(:large), :class => "img-polaroid media-object" %>
+                  <%= image_tag(@projectFull.photo.url(:large), :class => "img-polaroid media-object") unless @projectFull.photo.nil? %>
                  </div>             
                  <div class="span7 media-body">
                    <h4 class="media-heading"><%= @projectFull.title %></h4>

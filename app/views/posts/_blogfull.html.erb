@@ -1,7 +1,15 @@
-<div class="span8 blog-full">
-	<h2><%= @post.title %></h2>
-	<div><%= simple_format @post.body %></div>
-	<p>
-      Tags: <%= raw @post.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
-    </p>
+<div class="post first last">
+	<div class="post-content">
+		<div class="post-title">
+			<h2>
+				<%= @post.title %>
+			</h2>
+		</div>
+		<div class="post-description">
+			<%= simple_format @post.body %>
+		</div>
+		<div class="tags">
+	      Tags: <%= raw @post.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
+	    </div>
+	</div>
 </div>
