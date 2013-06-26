@@ -1,10 +1,13 @@
-<div class="project-thumb-projects">
+<hr>
 	<% @projects.each do |project| %>
-	  <div class="media span2">
-	    <%= link_to image_tag(project.photo.url(:medium), :class => "img-polaroid media-object"), project_path(project.id), :class => "proj-#{project.id}" %></td>
+	  <div class="span3 item">
+	  	<div class="picture">
+	    	<%= link_to image_tag(project.photo.url(:medium)), project_path(project.id), :class => "image proj-#{project.id}" %>
+	    <div class="description">
+	    	<p>
+				<%= simple_format strip_tags(truncate(@projectFull.body, :length => 200, :omission => "... (more)")) %>
+	    	</p>
+	    </div>
 	  </div>
-	  <div class="port-<%= project.id %>" style="display: none;">
-	    <%= project.body %>
-	  </div>
+	</div>
 	<% end %>
-</div>
