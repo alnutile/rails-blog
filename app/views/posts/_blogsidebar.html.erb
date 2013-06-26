@@ -1,6 +1,5 @@
-<div class="span3">
-  <div class="nav-header">Articles</div>
-  <ul class="nav nav-list">
+<h2>Articles</h2>
+  <ul class="links-list-alt">
      <% @posts.each do |post| %> 
       <li class="blog-link">
       	<% 
@@ -10,10 +9,8 @@
       			active = 'not-active'
       		end
       	%>
-        <%= link_to post.title, post, :class => "blog-link #{active}" %>
-        <div class="well"><%= raw strip_tags(truncate(post.body, :length => 100)) %></div>
+        <%= link_to post.title, post, :class => "#{active}" %>
       </li>
      <% end %>
   </ul>
-</div>
 

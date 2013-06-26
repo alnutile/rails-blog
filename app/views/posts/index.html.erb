@@ -1,6 +1,17 @@
 <% provide(:title, 'Blog & Stuff') %>
-<h1>Blog &amp; Stuff</h1>
 
-<%= render 'blogsidebar' %>
+<div id='page-title'>
+  <h2>Blog &amp; Stuff</h2>
+</div>
 
-<%= render 'bloglist' %>
+<div id="wrapper">
+	<div class="row-fluid">
+		<div class="span8 posts">
+			<%= render 'bloglist' %>
+		</div>
+
+		<div class="sidebar span4 hidden-phone">
+			<%= render 'blogsidebar' %>
+		</div>
+	</div>
+</div>
