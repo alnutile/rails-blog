@@ -9,7 +9,14 @@
 * You can buy this theme on WrapBootstrap: https://wrapbootstrap.com/theme/tabula-portfolio-bootstrap-template-WB0M5SS50
 */
 
-
+@import "bootstrap-responsive";
+@import "bootstrap";
+@import "social-icons.css";			/* Social Icons */
+@import "fancybox.css";				/* Fancybox */
+@import "font-awesome.css";			/* Font Awesome*/
+@import "font-awesome-ie7.css";		/* Font Awesome*/
+@import "glyphicons.css";				/* Glyphicons SVG & Font */
+@import "halflings.css";				/* Glyphicons Halflings SVG & Font */
 /* Import Section
 =================================================================== */
 
@@ -2515,7 +2522,7 @@ a.buy:hover {
 ====================================================================== */
 
 #footer {
-	background: #222 url("fbg.jpg);
+	background: #222 url("fbg.jpg");
 	padding: 20px 30px;
 	text-shadow: 0px -1px 0px #000; 
 	-webkit-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
@@ -2552,7 +2559,7 @@ a.buy:hover {
 #under-footer {
 	padding: 0px 20px;
 	min-height: 50px;
-	background: #222 url("fbg.jpg);
+	background: #222 url("fbg.jpg");
 	color: #b0b0b0;
 	-webkit-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
 	   -moz-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
@@ -2909,7 +2916,7 @@ a.buy:hover {
 
 #angular-circle {
  background-color: #BFB8A3;
- background-image: url('angular_circle.png"');
+ background-image: url('angular_circle.png');
  background-size: 100%;
  background-repeat: no-repeat;
 }
@@ -2930,7 +2937,7 @@ a.buy:hover {
 
 #drupal-circle {
  background-color: #BFB8A3;
- background-image: url('da.png"');
+ background-image: url('da.png');
  background-size: 100%;
  background-repeat: no-repeat;
 }
@@ -2967,7 +2974,7 @@ a.buy:hover {
 
 #hfc-circle {
  background-color: #D97E7E;
- background-image: url('hfc-circle.png"');
+ background-image: url('hfc-circle.png');
  background-size: 100%;
  background-repeat: no-repeat;
 }
@@ -2981,14 +2988,14 @@ a.buy:hover {
 
 #twitter-circle {
  background-color: #F2E0C9; 
- background-image: url('twitter.png"');
+ background-image: url('twitter.png');
  background-size: 100%;
  background-repeat: no-repeat;
 }
 
 #amazon-circle {
     background-color: #F2E0C9;
-    background-image: url('amazon.png"');
+    background-image: url('amazon.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -3000,11 +3007,3 @@ a.buy:hover {
   margin: 0 auto;
   margin-left: auto;
 }
-@import "bootstrap-responsive";
-@import "bootstrap";
-@import "social-icons.css";			/* Social Icons */
-@import "fancybox.css";				/* Fancybox */
-@import "font-awesome.css";			/* Font Awesome*/
-@import "font-awesome-ie7.css";		/* Font Awesome*/
-@import "glyphicons.css";				/* Glyphicons SVG & Font */
-@import "halflings.css";				/* Glyphicons Halflings SVG & Font */
