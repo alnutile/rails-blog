@@ -429,8 +429,8 @@ header {
 /* Wall & Porfolio
 =================================================================== */
 
-#wall {
-	
+#wall div.item {
+margin: 4px 4px;
 }
 
 #wall .item,
@@ -971,11 +971,11 @@ header {
 }
 
 .image-overlay-link {
-	background-image: url(../img/overlay-icon-01.png);
+	background-image: url("overlay-icon-01.png");
 }
 
 .image-overlay-zoom {
-	background-image: url(../img/overlay-icon-02.png);
+	background-image: url("overlay-icon-02.png");
 }
 
 /* Flexslider
@@ -1054,14 +1054,14 @@ html[xmlns] .slides {display: block;}
 }
 
 .flex-direction-nav .flex-next {
-	background-image: url(../img/slider-control-right.png);
+	background-image: url("slider-control-right.png");
 	background-repeat: no-repeat;
 	background-position: 52% 50%;
 }
 
 .flex-direction-nav .flex-prev {
 	margin-right: 36px;
-	background-image: url(../img/slider-control-left.png);
+	background-image: url("slider-control-left.png");
 	background-repeat: no-repeat;
 	background-position: 48% 50%;
 }
@@ -1225,12 +1225,12 @@ html[xmlns] .slides {display: block;}
 }
 
 .ico-color {
-	background-image: url("../img/icons/grey/glyphicons.png");
+	background-image: url("icons/grey/glyphicons.png");
 	opacity: 1;
 }
 
 .mini-color {
-  background-image: url("../img/icons/grey/glyphicons-mini.png");
+  background-image: url("icons/grey/glyphicons-mini.png");
   opacity: 1;
 }
 
@@ -1470,7 +1470,7 @@ input[type="button"] {
 }
 
 .testimonials-bg {
-	background: url(../img/testimonials-bg.png) no-repeat;
+	background: url("testimonials-bg.png") no-repeat;
 	margin-top: -1px;
 	display: block;
 	width: 200px;
@@ -1517,25 +1517,25 @@ input[type="button"] {
 }
 
 .mr-rotato-next {
-	background: url(../img/testimonials-right-01.png) no-repeat 50%;
+	background: url("testimonials-right-01.png") no-repeat 50%;
 	background-color: #fff;
 	right: 1px;
 	z-index: 6;
 }
 
 .mr-rotato-prev {
-	background: url(../img/testimonials-left-01.png) no-repeat 50%;
+	background: url("testimonials-left-01.png") no-repeat 50%;
 	background-color: #fff;
 	right: 25px;
 	z-index: 5;
 }
 
 .mr-rotato-next:hover {
-	background: url(../img/testimonials-right-02.png) no-repeat 50%;
+	background: url("testimonials-right-02.png") no-repeat 50%;
 }
 
 .mr-rotato-prev:hover {
-	background: url(../img/testimonials-left-02.png) no-repeat 50%;
+	background: url("testimonials-left-02.png") no-repeat 50%;
 }
 
 .mr-rotato-prev:hover,
@@ -2501,21 +2501,21 @@ a.buy:hover {
 	margin: 5px 0;
 }
 
-.check_list li {background: url(../img/icons/list/grey/list_check.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
-.plus_list  li {background: url(../img/icons/list/grey/list_plus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
-.minus_list  li {background: url(../img/icons/list/grey/list_minus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
-.star_list  li {background: url(../img/icons/list/grey/list_star.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.arrow_list  li {background: url(../img/icons/list/grey/list_arrow.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.square_list  li {background: url(../img/icons/list/grey/list_square.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.circle_list  li {background: url(../img/icons/list/grey/list_circle.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.cross_list  li {background: url(../img/icons/list/grey/list_cross.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.check_list li {background: url("icons/list/grey/list_check.png") no-repeat 0% 50%; padding: 0 0 0 18px;}
+.plus_list  li {background: url("icons/list/grey/list_plus.png") no-repeat 0% 50%; padding: 0 0 0 18px;}
+.minus_list  li {background: url("icons/list/grey/list_minus.png") no-repeat 0% 50%; padding: 0 0 0 18px;}
+.star_list  li {background: url("icons/list/grey/list_star.png") no-repeat 0% 50%; padding: 0 0 0 16px;}
+.arrow_list  li {background: url("icons/list/grey/list_arrow.png") no-repeat 0% 50%; padding: 0 0 0 16px;}
+.square_list  li {background: url("icons/list/grey/list_square.png") no-repeat 0% 50%; padding: 0 0 0 16px;}
+.circle_list  li {background: url("icons/list/grey/list_circle.png") no-repeat 0% 50%; padding: 0 0 0 16px;}
+.cross_list  li {background: url("icons/list/grey/list_cross.png") no-repeat 0% 50%; padding: 0 0 0 16px;}
 
 
 /* Footer
 ====================================================================== */
 
 #footer {
-	background: #222 url(../img/fbg.jpg);
+	background: #222 url("fbg.jpg);
 	padding: 20px 30px;
 	text-shadow: 0px -1px 0px #000; 
 	-webkit-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
@@ -2552,7 +2552,7 @@ a.buy:hover {
 #under-footer {
 	padding: 0px 20px;
 	min-height: 50px;
-	background: #222 url(../img/fbg.jpg);
+	background: #222 url("fbg.jpg);
 	color: #b0b0b0;
 	-webkit-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
 	   -moz-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
@@ -2598,7 +2598,7 @@ a.buy:hover {
 	height: 30px;
 	display: block;
 	background-color: #b0b0b0;
-	background-image: url(../img/scroll-top-top.png);
+	background-image: url("scroll-top-top.png");
 	background-repeat: no-repeat;
 	background-position: 50%;
 	-webkit-transition: all 0.1s ease-in-out;
@@ -2679,7 +2679,7 @@ a.buy:hover {
 #twitter b a, 
 #twitter b a:hover {color: #666; font-weight:bold}
 #twitter li {
-	background: url(../img/icons/twitter.png) no-repeat 0% 50%;
+	background: url("icons/twitter.png") no-repeat 0% 50%;
 	padding-left: 40px;
 	line-height: 18px; margin: 2px 0 12px 0;
 	}
@@ -2869,7 +2869,7 @@ a.buy:hover {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	
 	#twitter li {
-		background: url(../img/icons/twitter@2x.png) no-repeat 0% 50%;
+		background: url("icons/twitter@2x.png") no-repeat 0% 50%;
 		background-size: 32px 32px;	
 	}
 	
@@ -2909,7 +2909,7 @@ a.buy:hover {
 
 #angular-circle {
  background-color: #BFB8A3;
- background-image: url('angular_circle.png');
+ background-image: url('angular_circle.png"');
  background-size: 100%;
  background-repeat: no-repeat;
 }
@@ -2930,7 +2930,7 @@ a.buy:hover {
 
 #drupal-circle {
  background-color: #BFB8A3;
- background-image: url('da.png');
+ background-image: url('da.png"');
  background-size: 100%;
  background-repeat: no-repeat;
 }
@@ -2967,7 +2967,7 @@ a.buy:hover {
 
 #hfc-circle {
  background-color: #D97E7E;
- background-image: url('hfc-circle.png');
+ background-image: url('hfc-circle.png"');
  background-size: 100%;
  background-repeat: no-repeat;
 }
@@ -2981,14 +2981,14 @@ a.buy:hover {
 
 #twitter-circle {
  background-color: #F2E0C9; 
- background-image: url('twitter.png');
+ background-image: url('twitter.png"');
  background-size: 100%;
  background-repeat: no-repeat;
 }
 
 #amazon-circle {
     background-color: #F2E0C9;
-    background-image: url('amazon.png');
+    background-image: url('amazon.png"');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -3000,3 +3000,11 @@ a.buy:hover {
   margin: 0 auto;
   margin-left: auto;
 }
+@import "bootstrap-responsive";
+@import "bootstrap";
+@import "social-icons.css";			/* Social Icons */
+@import "fancybox.css";				/* Fancybox */
+@import "font-awesome.css";			/* Font Awesome*/
+@import "font-awesome-ie7.css";		/* Font Awesome*/
+@import "glyphicons.css";				/* Glyphicons SVG & Font */
+@import "halflings.css";				/* Glyphicons Halflings SVG & Font */
