@@ -1,18 +1,19 @@
 $('a.image').on('click', function(){
 	var clickedClass = $(this).attr('class');
 	clickedClass = clickedClass.split('-');
-
+	var imagePath = $(this).attr('data-url');
 	jQuery.ajax({       
 	    type: 'GET',
 	    url: 'http://' + window.location.host + '/projects/' + clickedClass[1] +'.json',
 	    dataType: 'json',
-	    success: layoutProjectContent, //This is what I will run on success
-	    data: {}        
+	    success: function(json) {
+	    		layoutProjectContent(json, imagePath);
+	    	}  
  	});
 	return false;
 });
 
-var layoutProjectContent = function(data) {
+var layoutProjectContent = function(data, imagePath) {
 	$('#project-slide p.starting').html(data.body);
 	$('#project-slide h4.media-heading').html(data.title);
 	var imageSrc = data.photo_file_name;
@@ -23,7 +24,6 @@ var layoutProjectContent = function(data) {
 	} else if($(id).length == 2) {
 		id = '0'+id;
 	}
-	var imagePath = '/system/projects/photos/000/000/'+id+'/large/'+imageSrc;
 	$('#project-slide .media-img img').attr('src', imagePath);
 	scrollTop();
 	updateUrl('projects/'+data.id);
