@@ -2,7 +2,7 @@
 //Text on bottom of content
 var textMe = jQuery('head title').text().substr(0,5);
 jQuery('#row-text').append('<div id="text-me" class="span9">' + textMe + '</div>');
-
+ 
 $("body").fadeIn();
 
 var scrollTop = function() {
@@ -25,4 +25,10 @@ if($('div.sites').length) {
 	var text = $('div.sites').html();
 	var fixed = replaceURLWithHTMLLinks(text);
 	$('div.sites').html(fixed);
+}
+
+if($('div.testimonies')) {
+	var how_many = $('div.testimonies blockquote').length;
+	var random_quote = Math.floor(Math.random()*how_many);
+	$('.testimonies blockquote').eq(random_quote).fadeIn();
 }
