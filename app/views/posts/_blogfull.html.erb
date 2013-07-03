@@ -6,7 +6,7 @@
 			</h2>
 		</div>
 		<div class="post-description">
-			<%= simple_format @post.body %>
+			<%= raw @post.body %>
 		</div>
 		<div class="tags">
 	      Tags: <%= raw @post.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
