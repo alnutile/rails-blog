@@ -10,11 +10,8 @@
 				$('#message').append(Scrambler.unoutput);
 				$('a').on('click', function(){
 				  var secret = $('input[type=text]').val();
-				  console.log(secret);
 				  Scrambler.scram(secret);
 				  $('.secret').html(Scrambler.scramoutput);
-				  Scrambler.unscram($('span'));
-				  $('#message').text("Message: " + Scrambler.unoutput);
 				  return false;
 				});
 			});
