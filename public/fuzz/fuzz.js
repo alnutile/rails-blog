@@ -19,9 +19,14 @@ var Scrambler = {
       return String.fromCharCode(Scrambler.randomNum(100));
     },
 
-    randomString: function() {
+    randomString: function(loop) {
       var str = Scrambler.randomChar(Math.random().toString(36).slice(-1));
-      return "<span>"+str+"</span>";;     
+      if (loop == 101) {
+        var br = "<br>";
+      } else {
+        var br = '';
+      }
+      return "<span>"+str+"</span>"+br;     
     },
 
     scram: function(text) {
@@ -31,9 +36,9 @@ var Scrambler = {
         
         for (count = 0; count < 101; ++count) {
           if(count <= 50) { 
-            Scrambler.scramoutput += Scrambler.randomString();
+            Scrambler.scramoutput += Scrambler.randomString(count);
           } else if (count >=52 && count <= 101) {
-            Scrambler.scramoutput += Scrambler.randomString();
+            Scrambler.scramoutput += Scrambler.randomString(count);
           }  else {
             Scrambler.scramoutput += "<span hidden>"+codeArray[index]+"</span>";
           }
