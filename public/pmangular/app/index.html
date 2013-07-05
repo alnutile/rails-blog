@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+<!--  <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/> -->
+  <link rel="stylesheet" href="lib/angular-ui/assets/bootstrap.css"/>
+  <link rel="stylesheet" href="custom/css/tasks.css"/>
+  <link rel="stylesheet" href="custom/css/style.css"/>
+  <link rel="stylesheet" href="custom/css/style-responsive.css"/>
+  <link rel="stylesheet" href="custom/css/chosen.css"/>
+  <link rel="stylesheet" href="custom/css/app.css"/>
+
+  
+</head>
+<body>
+  
+<div data-ng-include data-src="'partials/header.html'"></div>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span1" id="sidebar-left">
+      <div class="nav-collapse sidebar-nav">
+        <div data-ng-include data-src="'partials/services.html'"></div>
+      </div>
+    </div>
+    <div id="content" class="span11">
+      <div class="row-fluid" ng-view></div>
+    </div>
+  </div>
+</div>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+  -->
+  <script src="custom/js/jquery-1.9.1.min.js"></script>
+  <script src="custom/js/jquery-ui-1.10.0.custom.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <script src="bootstrap/js/bootstrap-collapse.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-resource.js"></script>
+  <script src="lib/angular-ui/ui-bootstrap-0.2.0.js"></script>
+  <script src="lib/angular-ui/ui-bootstrap-tpls-0.2.0.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+  <script src="custom/js/jquery.chosen.min.js"></script>
+  <script src="custom/custom.js"></script>
+</body>
+</html>
