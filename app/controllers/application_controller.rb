@@ -2,7 +2,12 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   include SessionsHelper
   before_filter :https_redirect
+  before_filter :set_headers
 
+  def set_headers
+    response.headers['X-XSS-Protection'] = "0"
+  end
+  
   # Force signout to prevent CSRF attacks
   def handle_unverified_request
     sign_out
