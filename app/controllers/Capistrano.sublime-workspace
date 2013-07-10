@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"app",
+				"application"
+			],
+			[
 				"padding",
 				"padding-top"
 			],
@@ -299,6 +303,72 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/alfrednutile/www/captest/config/deploy.rb",
+			"settings":
+			{
+				"buffer_size": 569,
+				"line_ending": "Unix",
+				"name": "deploy.rb"
+			}
+		},
+		{
+			"file": "/home/alfrednutile/www/alsbloginrails/alsstuff2/app/views/shared/_footer.html.erb",
+			"settings":
+			{
+				"buffer_size": 1303,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/alfrednutile/www/captest/config/recipes/base.rb",
+			"settings":
+			{
+				"buffer_size": 422,
+				"line_ending": "Unix",
+				"name": "base.rb"
+			}
+		},
+		{
+			"file": "/home/alfrednutile/www/captest/config/recipes/apachevhost.rb",
+			"settings":
+			{
+				"buffer_size": 306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/alfrednutile/www/337-capistrano-recipes-master/blog-after/config/recipes/templates/nginx_unicorn.erb",
+			"settings":
+			{
+				"buffer_size": 618,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/alfrednutile/www/captest/config/recipes/templates/apache_vhost.erb",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/alfrednutile/www/337-capistrano-recipes-master/blog-after/config/recipes/nginx.rb",
+			"settings":
+			{
+				"buffer_size": 780,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/alfrednutile/www/337-capistrano-recipes-master/blog-after/config/recipes/unicorn.rb",
+			"settings":
+			{
+				"buffer_size": 972,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -348,6 +418,10 @@
 	},
 	"file_history":
 	[
+		"/home/alfrednutile/www/captest/config/recipes/apache_site.rb",
+		"/home/alfrednutile/www/alsbloginrails/alsstuff2/config/deploy.rb",
+		"/home/alfrednutile/www/captest/config/recipes/templates/apache.rb",
+		"/home/alfrednutile/www/captest/config/recipes/templates/apache_site.erb",
 		"/home/alfrednutile/www/rickrockstar/app/controllers/question_sets_controller.rb",
 		"/home/alfrednutile/www/rickrockstar/app/controllers/application_controller.rb",
 		"/media/0924a537-8aad-4b90-95b1-a2ac1cb874b3/alfrednutile/Research/refinerycms-master/doc/guides/5 - Using Refinery as an Engine/2 - With an existing Rails 3.1 + Devise app.textile",
@@ -471,11 +545,7 @@
 		"/home/alfrednutile/www/chroma/newTrunk/chroma_website/branches/production/sites/all/modules/chromaProducts/includes/products.common.inc",
 		"/home/alfrednutile/www/chroma/site/sites/all/modules/chromaCart/includes/chromaCart.inc",
 		"/home/alfrednutile/www/chroma/site/sites/all/modules/chromaCart/templates/modals/configuration.tpl.php",
-		"/home/alfrednutile/www/chroma/site/sites/all/modules/chromaCart/templates/reloadcart.tpl.php",
-		"/home/alfrednutile/www/chroma/site/sites/all/modules/chromaCart/templates/modals/addPartForm.php",
-		"/home/alfrednutile/www/chroma/site/sites/all/modules/chromaCart/javascript/cart.js",
-		"/home/alfrednutile/www/chroma/site/sites/all/modules/chromaCart/chromaCart.module",
-		"/home/alfrednutile/www/chroma/site/sites/all/modules/chromaCart/templates/cart.tpl.php"
+		"/home/alfrednutile/www/chroma/site/sites/all/modules/chromaCart/templates/reloadcart.tpl.php"
 	],
 	"find":
 	{
@@ -651,8 +721,257 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/alfrednutile/www/captest/config/deploy.rb",
+					"settings":
+					{
+						"buffer_size": 569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "deploy.rb",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/alfrednutile/www/alsbloginrails/alsstuff2/app/views/shared/_footer.html.erb",
+					"settings":
+					{
+						"buffer_size": 1303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								403,
+								403
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/alfrednutile/www/captest/config/recipes/base.rb",
+					"settings":
+					{
+						"buffer_size": 422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "base.rb",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/alfrednutile/www/captest/config/recipes/apachevhost.rb",
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "/home/alfrednutile/www/337-capistrano-recipes-master/blog-after/config/recipes/templates/nginx_unicorn.erb",
+					"settings":
+					{
+						"buffer_size": 618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/alfrednutile/www/captest/config/recipes/templates/apache_vhost.erb",
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/alfrednutile/www/337-capistrano-recipes-master/blog-after/config/recipes/nginx.rb",
+					"settings":
+					{
+						"buffer_size": 780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/alfrednutile/www/337-capistrano-recipes-master/blog-after/config/recipes/unicorn.rb",
+					"settings":
+					{
+						"buffer_size": 972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -673,11 +992,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.547764849969,
 			1.0
 		],
 		"rows":
