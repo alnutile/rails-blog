@@ -25,6 +25,9 @@ if($('div.sites').length) {
 	var text = $('div.sites').html();
 	var fixed = replaceURLWithHTMLLinks(text);
 	$('div.sites').html(fixed);
+	$('a.fiber').text('http://fibershark.com');
+	$('a.broma').text('http://broma.com');
+
 }
 
 if($('div.testimonies')) {
