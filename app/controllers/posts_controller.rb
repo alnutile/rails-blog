@@ -6,7 +6,7 @@ class PostsController < ApplicationController
     if params[:tag]
       @posts = Post.tagged_with(params[:tag])
     else
-      @posts = Post.all(:order => "id DESC", :id => "!= 17")
+      @posts = Post.all(:order => "id DESC")
       respond_to do |format|
         format.html # index.html.erb
         format.json { 
