@@ -30,6 +30,6 @@
 		updateUrl('projects/'+data.id);
 	}
 
-	jQuery('#project_body').wysihtml5();
+
 
 })(jQuery)

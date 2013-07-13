@@ -1,8 +1,6 @@
-(function () {
+$(document).ready(function(){
 	//Text on bottom of content
-	var textMe = jQuery('head title').text().substr(0,5);
-	$('#row-text').append('<div id="text-me" class="span9">' + textMe + '</div>');
-	 
+
 	$("body").fadeIn();
 
 	var scrollTop = function() {
@@ -35,4 +33,6 @@
 		var random_quote = Math.floor(Math.random()*how_many);
 		$('.testimonies blockquote').eq(random_quote).fadeIn();
 	}
-})(jQuery)
+
+	$('textarea').wysihtml5();
+});
