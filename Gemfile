@@ -9,7 +9,8 @@ gem 'paperclip', "~> 3.0"
 gem 'acts-as-taggable-on'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'rails_autolink'
-
+gem 'jquery-hotkeys-rails'
+gem 'bootstrap-wysihtml5-rails'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
