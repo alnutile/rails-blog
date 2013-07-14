@@ -5,6 +5,9 @@
 				<%= @post.title %>
 			</h2>
 		</div>
+		<div class="createdate">
+		  <strong>Posted:</strong> <%= @post.created_at.strftime("%d %b %y")  %>
+		</div>
 		<div class="post-description">
 			<%= raw @post.body %>
 		</div>
