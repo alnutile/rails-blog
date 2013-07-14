@@ -1,4 +1,3 @@
-$(document).ready(function(){
 	//Text on bottom of content
 
 	$("body").fadeIn();
@@ -23,8 +22,8 @@ $(document).ready(function(){
 		var text = $('div.sites').html();
 		var fixed = replaceURLWithHTMLLinks(text);
 		$('div.sites').html(fixed);
-		$('a.fiber').text('http://fibershark.com');
-		$('a.broma').text('http://broma.com');
+		$('a.fiber').text('http://javascript.example.com');
+		$('a.broma').text('http://javascript.example.com');
 
 	}
 
@@ -35,4 +34,3 @@ $(document).ready(function(){
 	}
 
 	$('textarea').wysihtml5();
-});

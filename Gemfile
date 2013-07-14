@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'angularjs-rails'
-gem 'angular-ui-rails', github: 'mikepinde/angular-ui-rails'
+gem 'angular-ui-rails'
+#github: 'mikepinde/angular-ui-rails'
 gem 'pg'
 gem 'bootstrap-sass', '2.1'
 gem 'paperclip', "~> 3.0"

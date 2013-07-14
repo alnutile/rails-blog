@@ -13,13 +13,6 @@
 
 ActiveRecord::Schema.define(:version => 20130517015120) do
 
-  create_table "pages", :force => true do |t|
-    t.string   "title"
-    t.text     "body"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "posts", :force => true do |t|
     t.string   "title"
     t.string   "name"
@@ -61,6 +54,12 @@ ActiveRecord::Schema.define(:version => 20130517015120) do
 
   add_index "taggings", ["tag_id"], :name => "index_taggings_on_tag_id"
   add_index "taggings", ["taggable_id", "taggable_type", "context"], :name => "index_taggings_on_taggable_id_and_taggable_type_and_context"
+
+  create_table "tagprojects", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "tags", :force => true do |t|
     t.string "name"
