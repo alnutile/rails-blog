@@ -1,4 +1,6 @@
 Alsstuff2::Application.routes.draw do
+  mount Ckeditor::Engine => '/ckeditor'
+
   get "users/new"
   
   get 'tags/:tag', to: 'posts#index', as: :tag

@@ -1,9 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-gem 'angularjs-rails'
-gem 'angular-ui-rails'
-#github: 'mikepinde/angular-ui-rails'
 gem 'pg'
 gem 'bootstrap-sass', '2.1'
 gem 'paperclip', "~> 3.0"
@@ -11,7 +8,8 @@ gem 'acts-as-taggable-on'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'rails_autolink'
 gem 'jquery-hotkeys-rails'
-gem 'bootstrap-wysihtml5-rails'
+#gem 'bootstrap-wysihtml5-rails'
+gem "ckeditor", :git => "git://github.com/galetahub/ckeditor.git"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 

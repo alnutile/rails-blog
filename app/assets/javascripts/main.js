@@ -33,4 +33,4 @@
 		$('.testimonies blockquote').eq(random_quote).fadeIn();
 	}
 
-	$('textarea').wysihtml5();
+	//$('textarea').wysihtml5();

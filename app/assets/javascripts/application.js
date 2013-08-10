@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require jquery_address
 //= require bootstrap
-//= require bootstrap-wysihtml5
+//= require ckeditor/init
 //= require jquery-hotkeys
 //= require main
 //= require_tree .

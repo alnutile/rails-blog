@@ -3,6 +3,8 @@ class Project < ActiveRecord::Base
   	acts_as_taggable
 
 	  has_attached_file :photo,
+	  	:path => ":rails_root/public/system/:attachment/:id/:style/:filename",
+     	:url => "/system/:attachment/:id/:style/:filename",
 	  	:styles => {
 	  		:thumb => "100x100",
 	  		:medium => "200x200",
