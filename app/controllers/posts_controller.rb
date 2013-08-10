@@ -34,9 +34,12 @@ class PostsController < ApplicationController
   end
 
   def create
-    #respond_with Post.create(params[:entry])
     @post = Post.create(params[:post]);
-    #respond_with = @post.to_json(:include => :tag_list_json)
+    if @post.save
+      redirect_to @post, notice: "Created Post."
+    else
+      render :new
+    end
   end
 
   def update
