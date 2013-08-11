@@ -8,6 +8,7 @@ gem 'acts-as-taggable-on'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'rails_autolink'
 gem 'jquery-hotkeys-rails'
+gem 'aws-sdk', '~> 1.5.7'
 #gem 'bootstrap-wysihtml5-rails'
 gem "ckeditor", :git => "git://github.com/galetahub/ckeditor.git"
 # Bundle edge Rails instead:
@@ -21,6 +22,12 @@ group :development, :test do
 	  gem 'capistrano'
 	  gem 'capistrano-ext'
 	  gem 'rvm-capistrano'
+end
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'meta_request'
 end
 
 group :test do 

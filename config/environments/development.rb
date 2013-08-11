@@ -6,6 +6,14 @@ Alsstuff2::Application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
+  config.paperclip_defaults = {
+      :storage => :s3,
+      :url => ':s3_alias_url',
+      :path => "/:class/:id/:style/:clean_filename",
+      :s3_host_alias => 's3-us-west-2.amazonaws.com/nutilesblog',
+      :s3_credentials => "#{Rails.root}/config/s3.yml"
+  }
+
   # Log error messages when you accidentally call methods on nil.
   config.whiny_nils = true
 

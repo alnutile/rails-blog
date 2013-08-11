@@ -9,9 +9,7 @@ class PostsController < ApplicationController
       @posts = Post.all(:order => "id DESC")
       respond_to do |format|
         format.html # index.html.erb
-        format.json { 
-          render json: @posts
-        }
+        format.json { render json: @posts }
       end
     end
   end

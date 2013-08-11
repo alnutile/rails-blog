@@ -6,7 +6,7 @@
 settings.php
 # Ignore bundler config
 /.bundle
-
+config/s3.yml
 # Ignore the default SQLite database.
 /db/*.sqlite3
 
