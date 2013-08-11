@@ -3,6 +3,15 @@ Alsstuff2::Application.configure do
   # config.force_ssl = (ENV["ENABLE_HTTPS"] == "yes")
   # config.ssl_options = {hsts: {expires: 3600}}
   # Code is not reloaded between requests
+
+  config.paperclip_defaults = {
+      :storage => :s3,
+      :url => ':s3_alias_url',
+      :path => "/:class/:id/:style/:clean_filename",
+      :s3_host_alias => 's3-us-west-2.amazonaws.com/nutilesblog',
+      :s3_credentials => "#{Rails.root}/config/s3.yml"
+  }
+
   config.cache_classes = true
 
   # Full error reports are disabled and caching is turned on
