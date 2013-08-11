@@ -41,7 +41,12 @@ role :db,  "75.98.173.74", :primary => true # This is where Rails migrations wil
 namespace :deploy do
   task :start do ; end
   task :stop do ; end
+  task :symlink_shared do
+    run "ln -s #{shared_path}/s3.yml #{release_path}/config/"
+  end
   task :restart, :roles => :app, :except => { :no_release => true } do
     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
   end
 end
+
+before "deploy:restart", "deploy:symlink_shared"
