@@ -2,7 +2,17 @@
 	<% @projects.each do |project| %>
 	  <div class="span3 item">
 	  	<div class="picture">
-	    	<%= link_to image_tag(project.photo.url(:medium)), project_path(project.id), :class => "image proj-#{project.id}", :data => { :url => project.photo.url(:large) } %>
+              <% if  @projectFull.id <= 26 %>
+              <%
+                 id = "%03d" % @projectFull.id
+                 path_medium = "https://s3-us-west-2.amazonaws.com/nutilesblog/medium/#{id}/medium/"
+                 path_large = "https://s3-us-west-2.amazonaws.com/nutilesblog/medium/#{id}/medium/"
+                 image = project.photo.to_s.split('/').last
+              %>
+                <%= link_to image_tag("#{path_medium}#{image})"), project_path(project.id), :class => "image proj-#{project.id}", :data => { :url => "#{path_large}#{image})" } %>
+              <% else %>
+                <%= link_to image_tag(project.photo.url(:medium)), project_path(project.id), :class => "image proj-#{project.id}", :data => { :url => project.photo.url(:large) } %>
+              <% end %>
 	    <div class="description">
 	    	<p>
 				<%= simple_format strip_tags(truncate(project.body, :length => 200, :omission => "... (more)")) %>

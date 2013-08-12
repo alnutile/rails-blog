@@ -2,6 +2,11 @@
         <span id="slide1">
             <div class="media">
                  <div class="span5 media-img">
+                 <% if  @projectFull.id <= 26 %>
+                   <%= image_tag(@projectFull.photo.to_s.split('/').last, :class => 'img-polaroid media-object') unless @projectFull.photo.nil? %>
+                 <% else %>
+                   <%= image_tag(@projectFull.photo.url(:large), :class => 'img-polaroid media-object') unless @projectFull.photo.nil? %>
+                 <% end %>
                   <!--.gsub!('s3.amazonaws.com', 's3-us-west-2.amazonaws.com')-->
                   <%= image_tag(@projectFull.photo.url(:large), :class => 'img-polaroid media-object') unless @projectFull.photo.nil? %>
                  </div>             
