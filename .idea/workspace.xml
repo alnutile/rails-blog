@@ -4,7 +4,6 @@
     <list default="true" id="959d552b-39f8-485a-a802-e07fe73b88ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_projects-bottom.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/_projects-bottom.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_projects-top.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/_projects-top.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alsstuff2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,26 +40,43 @@
     <favorites_list name="alsstuff2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_projects-top.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-top.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="72" selection-start="253" selection-end="273" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_projects-bottom.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-bottom.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="52" selection-start="534" selection-end="534" vertical-scroll-proportion="0.26785713">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.3796748">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="_projects-top.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-top.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="56" selection-start="629" selection-end="629" vertical-scroll-proportion="-3.125">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_projects-bottom.html.erb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-bottom.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="69" selection-start="156" selection-end="156" vertical-scroll-proportion="0.12647554">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="_projects-top.html.erb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-top.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="19" selection-start="592" selection-end="592" vertical-scroll-proportion="0.26785713">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -92,8 +108,8 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/initializers/ckeditor.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/ckeditor/config.js" />
-        <option value="$PROJECT_DIR$/app/views/projects/_projects-top.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/_projects-bottom.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/projects/_projects-top.html.erb" />
       </list>
     </option>
   </component>
@@ -442,6 +458,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="alsstuff2" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -594,7 +617,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25853658" sideWeight="0.67107195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25853658" sideWeight="0.67107195" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -751,14 +774,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-top.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="72" selection-start="253" selection-end="273" vertical-scroll-proportion="-3.125">
+        <state line="11" column="56" selection-start="629" selection-end="629" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-bottom.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="52" selection-start="534" selection-end="534" vertical-scroll-proportion="0.26785713">
+        <state line="5" column="69" selection-start="156" selection-end="156" vertical-scroll-proportion="0.12647554">
           <folding />
         </state>
       </provider>

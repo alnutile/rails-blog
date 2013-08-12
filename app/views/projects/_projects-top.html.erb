@@ -3,12 +3,16 @@
             <div class="media">
                  <div class="span5 media-img">
                  <% if  @projectFull.id <= 26 %>
-                   <%= image_tag(@projectFull.photo.to_s.split('/').last, :class => 'img-polaroid media-object') unless @projectFull.photo.nil? %>
+                   <%
+                      id = "%03d" % @projectFull.id
+                      path_medium = "https://s3-us-west-2.amazonaws.com/nutilesblog/medium/#{id}/medium/"
+                      path_large = "https://s3-us-west-2.amazonaws.com/nutilesblog/medium/#{id}/medium/"
+                      image = project.photo.to_s.split('/').last
+                   %>
+                   <%= image_tag("#{path_large}#{image}", :class => 'img-polaroid media-object') unless @projectFull.photo.nil? %>
                  <% else %>
                    <%= image_tag(@projectFull.photo.url(:large), :class => 'img-polaroid media-object') unless @projectFull.photo.nil? %>
                  <% end %>
-                  <!--.gsub!('s3.amazonaws.com', 's3-us-west-2.amazonaws.com')-->
-                  <%= image_tag(@projectFull.photo.url(:large), :class => 'img-polaroid media-object') unless @projectFull.photo.nil? %>
                  </div>             
                  <div class="span7 media-body">
                    <h4 class="media-heading"><%= @projectFull.title %></h4>
