@@ -7,7 +7,7 @@
                       id = "%03d" % @projectFull.id
                       path_medium = "https://s3-us-west-2.amazonaws.com/nutilesblog/medium/#{id}/medium/"
                       path_large = "https://s3-us-west-2.amazonaws.com/nutilesblog/medium/#{id}/medium/"
-                      image = project.photo.to_s.split('/').last
+                      image = @projectFull.photo.to_s.split('/').last
                    %>
                    <%= image_tag("#{path_large}#{image}", :class => 'img-polaroid media-object') unless @projectFull.photo.nil? %>
                  <% else %>
