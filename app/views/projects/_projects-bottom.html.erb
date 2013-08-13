@@ -5,8 +5,8 @@
               <% if  @projectFull.id <= 26 %>
               <%
                  id = "%03d" % @projectFull.id
-                 path_medium = "https://s3-us-west-2.amazonaws.com/nutilesblog/medium/#{id}/medium/"
-                 path_large = "https://s3-us-west-2.amazonaws.com/nutilesblog/medium/#{id}/medium/"
+                 path_medium = "http://s3-us-west-2.amazonaws.com/nutilesblog/projects_original/#{id}/medium/"
+                 path_large = "http://s3-us-west-2.amazonaws.com/nutilesblog/projects_original/#{id}/large/"
                  image = project.photo.to_s.split('/').last
               %>
                 <%= link_to image_tag("#{path_medium}#{image}"), project_path(project.id), :class => "image proj-#{project.id}", :data => { :url => "#{path_large}#{image}" } %>

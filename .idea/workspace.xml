@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="959d552b-39f8-485a-a802-e07fe73b88ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_projects-bottom.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/_projects-bottom.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_projects-top.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/_projects-top.html.erb" />
     </list>
     <ignored path="alsstuff2.iws" />
@@ -12,7 +13,7 @@
     <file path="/development.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376232976959" ignored="false" />
     <file path="/paperclip.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376232132193" ignored="false" />
     <file path="/environment.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376177914560" ignored="false" />
-    <file path="/_projects-top.html.erb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376349997135" ignored="false" />
+    <file path="/_projects-top.html.erb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376352809171" ignored="false" />
     <file path="/a.dummy" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376228796169" ignored="false" />
     <file path="/Gemfile" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376229281470" ignored="false" />
     <file path="/better_errors.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376229462394" ignored="false" />
@@ -20,7 +21,7 @@
     <file path="/application.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376232376225" ignored="false" />
     <file path="/deploy.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376235601047" ignored="false" />
     <file path="/ckeditor.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376239344502" ignored="false" />
-    <file path="/_projects-bottom.html.erb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376351008143" ignored="false" />
+    <file path="/_projects-bottom.html.erb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376352198111" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +43,22 @@
     <splitter split-orientation="horizontal" split-proportion="0.56666666">
       <split-first>
         <leaf>
-          <file leaf-file-name="_projects-top.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="_projects-top.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-top.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="55" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.5113636">
-                  <folding />
+                <state line="9" column="100" selection-start="533" selection-end="533" vertical-scroll-proportion="-5.0">
+                  <folding>
+                    <marker date="1376352810000" expanded="true" signature="1046:1257" placeholder="..." />
+                    <marker date="1376352810000" expanded="true" signature="1161:1233" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_projects-bottom.html.erb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="_projects-bottom.html.erb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-bottom.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="69" selection-start="156" selection-end="156" vertical-scroll-proportion="-3.125">
+                <state line="10" column="23" selection-start="500" selection-end="500" vertical-scroll-proportion="0.24350649">
                   <folding />
                 </state>
               </provider>
@@ -64,10 +68,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="_projects-top.html.erb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="_projects-top.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-top.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="19" selection-start="597" selection-end="597" vertical-scroll-proportion="0.26785713">
+                <state line="4" column="41" selection-start="193" selection-end="193" vertical-scroll-proportion="0.097402595">
                   <folding />
                 </state>
               </provider>
@@ -773,14 +777,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-bottom.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="69" selection-start="156" selection-end="156" vertical-scroll-proportion="-3.125">
+        <state line="10" column="23" selection-start="500" selection-end="500" vertical-scroll-proportion="0.24350649">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/_projects-top.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="55" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.5113636">
+        <state line="4" column="41" selection-start="193" selection-end="193" vertical-scroll-proportion="0.097402595">
           <folding />
         </state>
       </provider>

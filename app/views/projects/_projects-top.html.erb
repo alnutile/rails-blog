@@ -2,11 +2,12 @@
         <span id="slide1">
             <div class="media">
                  <div class="span5 media-img">
+                  <!-- uploading file -->
                  <% if  @projectFull.id <= 26 %>
                    <%
                       id = "%03d" % @projectFull.id
-                      path_medium = "https://s3-us-west-2.amazonaws.com/nutilesblog/medium/#{id}/medium/"
-                      path_large = "https://s3-us-west-2.amazonaws.com/nutilesblog/medium/#{id}/medium/"
+                      path_medium = "http://s3-us-west-2.amazonaws.com/nutilesblog/projects_original/#{id}/medium/"
+                      path_large = "http://s3-us-west-2.amazonaws.com/nutilesblog/projects_original/#{id}/large/"
                       image = @projectFull.photo.to_s.split('/').last
                    %>
                    <%= image_tag("#{path_large}#{image}", :class => 'img-polaroid media-object') unless @projectFull.photo.nil? %>
