@@ -2,9 +2,9 @@
 	<% @projects.each do |project| %>
 	  <div class="span3 item">
 	  	<div class="picture">
-              <% if  @projectFull.id <= 26 %>
+              <% if  project.id <= 26 %>
               <%
-                 id = "%03d" % @projectFull.id
+                 id = "%03d" % project.id
                  path_medium = "http://s3-us-west-2.amazonaws.com/nutilesblog/projects_original/#{id}/medium/"
                  path_large = "http://s3-us-west-2.amazonaws.com/nutilesblog/projects_original/#{id}/large/"
                  image = project.photo.to_s.split('/').last
