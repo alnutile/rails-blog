@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="959d552b-39f8-485a-a802-e07fe73b88ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/projects.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/projects.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alsstuff2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,7 +21,7 @@
     <file path="/deploy.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376235601047" ignored="false" />
     <file path="/ckeditor.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376239344502" ignored="false" />
     <file path="/_projects-bottom.html.erb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376352198111" ignored="false" />
-    <file path="/projects.css.scss" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376610192077" ignored="false" />
+    <file path="/projects.css.scss" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376614808029" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +40,7 @@
     <favorites_list name="alsstuff2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="projects.css.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/projects.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="246" selection-end="246" vertical-scroll-proportion="0.20673813">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -582,13 +571,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1276" height="778" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2626016" sideWeight="0.67107195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2626016" sideWeight="0.67107195" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -750,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/projects.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="246" selection-end="246" vertical-scroll-proportion="0.20673813">
+        <state line="17" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="0.39050537">
           <folding />
         </state>
       </provider>
