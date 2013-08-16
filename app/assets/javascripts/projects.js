@@ -15,7 +15,7 @@
     });
 
 	var layoutProjectContent = function(data, imagePath) {
-		$('#project-slide p.starting').html(data.body);
+		$('#project-slide div.starting').html(data.body);
 		$('#project-slide h4.media-heading').html(data.title);
 		var imageSrc = data.photo_file_name;
 		var imageSize = data.photo_file_size;
