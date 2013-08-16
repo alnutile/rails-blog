@@ -7,7 +7,7 @@ Alsstuff2::Application.configure do
   config.paperclip_defaults = {
       :storage => :s3,
       :url => ':s3_alias_url',
-      :path => "/:class/:id/:style/:clean_filename",
+      :path => "/projects/:id/:style/:clean_filename",
       :s3_host_alias => 's3-us-west-2.amazonaws.com/nutilesblog',
       :s3_credentials => "#{Rails.root}/config/s3.yml"
   }

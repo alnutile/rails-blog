@@ -1,6 +1,6 @@
 class Ckeditor::AttachmentFile < Ckeditor::Asset
   has_attached_file :data,
-                    :path => ":rails_root/public/ckeditor_assets/pictures/:id/:style_:basename.:extension",
+                    :path => "/public/ckeditor_assets/pictures/:id/:style_:basename.:extension",
                     :url => ':s3_alias_url',
                     :s3_host_alias => 's3-us-west-2.amazonaws.com/nutilesblog'
 
