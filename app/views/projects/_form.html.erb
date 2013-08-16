@@ -22,7 +22,7 @@
 
   <div class="field span12">
     <%= f.label :body %><br />
-    <%= f.text_area :body, :class => 'span8' %>
+    <%= f.cktext_area :body, :class => 'span8', :ckeditor => {:uiColor => "#C6C6C6", :toolbar => "mini"} %>
   </div>
 
   <div class="field">
