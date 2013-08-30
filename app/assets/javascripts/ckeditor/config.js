@@ -6,7 +6,7 @@
 
 CKEDITOR.editorConfig = function( config )
 {
-
+    console.log(config)
     config.allowedContent = true;
 
 };

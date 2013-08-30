@@ -1,4 +1,7 @@
 class PostsController < ApplicationController
+  caches_page :index, :show
+  before_filter(only: [:index, :show]) { @page_caching = true }
+  cache_sweeper :post_sweeper
   before_filter :signed_in_user, only: [:edit, :update, :new]
   respond_to :json
 

@@ -3,8 +3,8 @@
 <head>
   <title>Alfred Nutile::Developer[JavaScript, jQuery, Rails, PHP, Angular, Drupal] | <%= yield(:title) %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "/assets/ckeditor/ckeditor.js" %>
-  <%= csrf_meta_tags %>
+  <%= javascript_include_tag 'ckeditor/ckeditor.js' %>
+  <%= csrf_meta_tag unless @page_caching %>
   <%= favicon_link_tag 'favicon.ico' %>
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
   <!-- For iPhone with high-resolution Retina display: -->
@@ -15,10 +15,14 @@
 <body>
   <%= render 'shared/topnav' %>
     <div  class="container">
+      <% unless @page_caching %>
         <% flash.each do |key, value| %>
-          <div class="alert alert-<%= key %>"><%= value %></div>
+            <div class="alert alert-<%= key %>"><%= value %></div>
         <% end %>
-        <%= yield %>
+      <% end %>
+
+          <%= yield %>
+
     </div>
   
     <div id="footer">
