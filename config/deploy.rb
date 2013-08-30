@@ -44,9 +44,19 @@ namespace :deploy do
   task :symlink_shared do
     run "ln -s #{shared_path}/s3.yml #{release_path}/config/"
   end
+
   task :restart, :roles => :app, :except => { :no_release => true } do
     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
   end
 end
 
 before "deploy:restart", "deploy:symlink_shared"
+
+namespace :cache_clear do
+  task :all do
+    run "rm #{deploy_to}/current/public/index.html"
+    run "rm #{deploy_to}/current/public/about.html"
+    run "rm #{deploy_to}/current/public/posts.html"
+    run "rm -rf #{deploy_to}/current/public/posts"
+  end
+end
