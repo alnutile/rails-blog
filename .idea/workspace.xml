@@ -27,7 +27,7 @@
     <file path="/projects.js" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376619375200" ignored="false" />
     <file path="/config.js" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1376622572411" ignored="false" />
     <file path="/posts_sweeper.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1377823655076" ignored="false" />
-    <file path="/application.html.erb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1377855165835" ignored="false" />
+    <file path="/application.html.erb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1377860721704" ignored="false" />
     <file path="/content_sweeper.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1377855232325" ignored="false" />
     <file path="/content_controller.rb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1377856097837" ignored="false" />
     <file path="/about.html.erb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1377855959997" ignored="false" />
@@ -91,7 +91,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.07590759">
+            <state line="5" column="38" selection-start="245" selection-end="245" vertical-scroll-proportion="0.07590759">
               <folding />
             </state>
           </provider>
@@ -839,7 +839,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.07590759">
+        <state line="5" column="38" selection-start="245" selection-end="245" vertical-scroll-proportion="0.07590759">
           <folding />
         </state>
       </provider>
