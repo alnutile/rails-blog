@@ -15,6 +15,7 @@ gem "ckeditor", :git => "git://github.com/galetahub/ckeditor.git"
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
+ 	gem 'taps'  
 	gem 'rspec-rails'
 	gem 'guard-rspec'
 	gem 'guard-spork', '1.4.1'
