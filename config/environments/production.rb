@@ -9,7 +9,12 @@ Alsstuff2::Application.configure do
       :url => ':s3_alias_url',
       :path => "/projects/:id/:style/:clean_filename",
       :s3_host_alias => 's3-us-west-2.amazonaws.com/nutilesblog',
-      :s3_credentials => "#{Rails.root}/config/s3.yml"
+      :s3_credentials => {
+          :bucket => ENV['AWS_BUCKET'],
+          :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+          :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+      }
+
   }
 
   config.cache_classes = true
