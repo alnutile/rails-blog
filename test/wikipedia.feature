@@ -1,4 +1,4 @@
- @example
+ @example @admin
  Feature: Example Test for WikiPedia
  
    Scenario: WikiPedia
