@@ -17,14 +17,12 @@
 	    return text.replace(exp,"<a target='_blank' href='$1'>$1</a>"); 
 	}
 
-
-	if($('div.sites').length) {
+	if($('div.sites a.site').length) {
 		var text = $('div.sites').html();
 		var fixed = replaceURLWithHTMLLinks(text);
 		$('div.sites').html(fixed);
 		$('a.fiber').text('http://javascript.example.com');
 		$('a.broma').text('http://javascript.example.com');
-
 	}
 
 	if($('div.testimonies')) {
