@@ -17,15 +17,23 @@
 	    return text.replace(exp,"<a target='_blank' href='$1'>$1</a>"); 
 	}
 
-	if($('div.sites a.site').length) {
-		var text = $('div.sites').html();
-		var fixed = replaceURLWithHTMLLinks(text);
-		$('div.sites').html(fixed);
-		$('a.fiber').text('http://javascript.example.com');
-		$('a.broma').text('http://javascript.example.com');
-	}
 
-	if($('div.testimonies')) {
+	if($('div.sites div.site').length) {
+        $('div.sites div.site').each(function(){
+            var text = $(this).html();
+            var fixed = replaceURLWithHTMLLinks(text);
+            $(this).html(fixed);
+        });
+	};
+
+    if($('div.sites div.site-ignore').length) {
+        $('div.sites div.site-ignore').each(function(){
+            $('a', this).text('http://javascript.example.com');
+        });
+    };
+
+
+    if($('div.testimonies')) {
 		var how_many = $('div.testimonies blockquote').length;
 		var random_quote = Math.floor(Math.random()*how_many);
 		$('.testimonies blockquote').eq(random_quote).fadeIn();

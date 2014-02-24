@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="959d552b-39f8-485a-a802-e07fe73b88ab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/about.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/_sites.html.erb" afterPath="$PROJECT_DIR$/app/views/content/_sites.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/main.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/main.js" />
     </list>
     <ignored path="alsstuff2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,8 +124,8 @@
     <file path="$PROJECT_DIR$/../../fis2/app/assets/javascripts/user_surveys.js" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1386036668883" ignored="false" />
     <file path="$PROJECT_DIR$/../../fis2/public/assets/application.css" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1386036668883" ignored="false" />
     <file path="$PROJECT_DIR$/../../fis2/app/assets/javascripts/survey_sets.js" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1386036668883" ignored="false" />
-    <file path="/_sites.html.erb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1393214617311" ignored="false" />
-    <file path="/main.js" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1393214411325" ignored="false" />
+    <file path="/_sites.html.erb" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1393215667494" ignored="false" />
+    <file path="/main.js" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1393215688532" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,28 +145,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/content/about.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="11.208333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_sites.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/content/_sites.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="112" selection-start="600" selection-end="600" vertical-scroll-proportion="0.10152284">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="786" selection-end="786" vertical-scroll-proportion="0.6891271">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_sites.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/content/_sites.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="77" selection-start="4661" selection-end="4661" vertical-scroll-proportion="-4.020408">
               <folding />
             </state>
           </provider>
@@ -204,8 +195,8 @@
         <option value="$PROJECT_DIR$/app/views/shared/_discuss.html.erb" />
         <option value="$PROJECT_DIR$/app/sweepers/post_sweeper.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/main.js" />
         <option value="$PROJECT_DIR$/app/views/content/_sites.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/main.js" />
       </list>
     </option>
   </component>
@@ -857,21 +848,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/content/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="11.208333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8019481">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/content/_sites.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="112" selection-start="600" selection-end="600" vertical-scroll-proportion="0.10152284">
+        <state line="52" column="77" selection-start="4661" selection-end="4661" vertical-scroll-proportion="-4.020408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="786" selection-end="786" vertical-scroll-proportion="0.6891271">
           <folding />
         </state>
       </provider>
