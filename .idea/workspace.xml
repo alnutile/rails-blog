@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="959d552b-39f8-485a-a802-e07fe73b88ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/_sites.html.erb" afterPath="$PROJECT_DIR$/app/views/content/_sites.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/main.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/main.js" />
-    </list>
+    <list default="true" id="959d552b-39f8-485a-a802-e07fe73b88ab" name="Default" comment="" />
     <ignored path="alsstuff2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="959d552b-39f8-485a-a802-e07fe73b88ab" time="1393213851941" ignored="false" />
