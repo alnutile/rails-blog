@@ -16,5 +16,7 @@
 //= require bootstrap
 //= require ckeditor/init
 //= require jquery-hotkeys
+//= require posts
 //= require main
 //= require_tree .
+
