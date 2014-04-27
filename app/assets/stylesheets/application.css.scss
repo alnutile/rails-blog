@@ -9,12 +9,10 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *= require bootstrap
  *= require bootstrap-responsive
- *=	require style
+ *= require style
+ *= require pygments
  *= require posts
  *= require projects
  */
 
 
-p a {
-	text-decoration: underline
-}

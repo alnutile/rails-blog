@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="540815497">
+    <data-source source="LOCAL" name="Rails alsstuff2: development" uuid="832e91cd-8abd-4e37-836d-17b23170a733">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/alsstuff_dev_two</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfdedfc2dfc3dfd9dfc3dfd9dfc3dfdedf9adf9f</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails alsstuff2: test" uuid="0974ccbf-3de5-44ec-9834-e5cec315e750">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/alsstuff_test_two</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfdedfc2dfc3dfd9dfc3dfd9dfc3dfdedf9adf9f</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails alsstuff2: production" uuid="447c3bdb-2d72-48a3-820c-576c97e6d06c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/alsstuff_production</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfdedfc2dfc3dfd9dfc3dfd9dfc3dfdedf9adf9f</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

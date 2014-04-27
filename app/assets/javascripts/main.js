@@ -38,5 +38,3 @@
 		var random_quote = Math.floor(Math.random()*how_many);
 		$('.testimonies blockquote').eq(random_quote).fadeIn();
 	}
-
-	//$('textarea').wysihtml5();

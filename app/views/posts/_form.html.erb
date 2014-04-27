@@ -20,9 +20,9 @@
     <%= f.label :created_at %><br />
     <%= f.datetime_select :created_at %>
   </div>
-  <div class="field span12">
+  <div class="field span12 content">
     <%= f.label :body %><br />
-    <%= f.cktext_area :body, :class => 'span8', :ckeditor => {:uiColor => "#C6C6C6", :toolbar => "mini"} %>
+    <%= f.text_area :body, :class => 'span8' %>
   </div>
 
 

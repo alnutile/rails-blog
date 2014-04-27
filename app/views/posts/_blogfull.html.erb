@@ -9,7 +9,11 @@
 		  <strong>Posted:</strong> <%= @post.created_at.strftime("%d %b %y")  %>
 		</div>
 		<div class="post-description">
-			<%= raw @post.body %>
+			<% if !@post.rendered_body.nil? %>
+              <%= raw @post.rendered_body %>
+            <% else %>
+              <%= raw @post.body %>
+            <% end %>
 		</div>
 		<div class="tags">
 	      Tags: <%= raw @post.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>

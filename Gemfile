@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'pg'
+gem "redcarpet"
+gem 'pygmentize'
 gem 'bootstrap-sass', '2.1'
 gem 'paperclip', "~> 3.0"
 gem 'acts-as-taggable-on'
@@ -9,13 +11,12 @@ gem 'bcrypt-ruby', '3.0.1'
 gem 'rails_autolink'
 gem 'jquery-hotkeys-rails'
 gem 'aws-sdk', '~> 1.5.7'
-#gem 'bootstrap-wysihtml5-rails'
 gem "ckeditor", :git => "git://github.com/galetahub/ckeditor.git"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
- 	gem 'taps'  
+ 	gem 'taps'
 	gem 'rspec-rails'
 	gem 'guard-rspec'
 	gem 'guard-spork', '1.4.1'
@@ -39,8 +40,6 @@ group :test do
 	gem 'js-test-driver-rails', '>= 0.5.0.pre2'
 end
 
-
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -53,24 +52,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-
-
 gem 'jquery-rails'
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
 
 gem 'therubyracer'
 gem 'rvm-capistrano'
